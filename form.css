@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 1180.2650146484375px;
+    height: 392.1844787597656px;
+    box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+    background: rgb(255, 255, 255);
+    margin-top: 210px;
+}
+
+.inp1 input {
+    width: 362.49px;
+    height: 50.72px;
+    box-sizing: border-box;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.inp1 {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+#input {
+    width: 749.73px;
+    height: 81.65px;
+    box-sizing: border-box;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    margin-top: 17px;
+    padding: 10px;
+}
+
+button {
+    border-radius: 9px;
+    width: 169.49px;
+    height: 42.06px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 280px;
+    background: linear-gradient(140.12deg, rgb(212, 20, 90) -20.965%, rgb(61, 91, 245) 102.951%);
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 635px;
+        height: 401px;
+        margin-top: 170px;
+
+    }
+
+
+    .inp1 input {
+        width: 432px;
+        height: 41px;
+        box-sizing: border-box;
+        border: 1px solid rgb(162, 162, 162);
+        border-radius: 9px;
+        padding: 10px;
+        background: rgb(255, 255, 255);
+    }
+
+    #inp2 {
+        position: absolute;
+        left: 179px;
+        top: 299px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    #inp3 {
+        position: absolute;
+        left: 179px;
+        top: 360px;
+    }
+
+    #input {
+        position: absolute;
+        left: 179px;
+        top: 399px;
+        padding: 10px;
+    }
+
+    #input {
+        width: 432px;
+        height: 95px;
+    }
+
+    button {
+        width: 137px;
+        height: 34px;
+        position: absolute;
+        left: 30px;
+        top: 480px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        width: 267px;
+        height: 298px;
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 27px;
+    }
+
+    .inp1 input {
+        width: 212px;
+        height: 20px;
+        box-sizing: border-box;
+        border: 1px solid rgb(162, 162, 162);
+        border-radius: 9px;
+        padding: 10px;
+        background: rgb(255, 255, 255);
+    }
+
+    #input {
+        width: 212px;
+        height: 95px;
+        box-sizing: border-box;
+        border: 1px solid rgb(162, 162, 162);
+        border-radius: 9px;
+        padding: 10px;
+        background: rgb(255, 255, 255);
+    }
+
+    #inp2 {
+        position: absolute;
+        left: 53px;
+        top: 230px;
+    }
+
+    #inp3 {
+        position: absolute;
+        left: 53px;
+        top: 270px;
+    }
+
+    #input {
+        position: absolute;
+        left: 53px;
+        top: 290px;
+    }
+
+    button {
+        width: 58px;
+        height: 18px;
+        position: absolute;
+        left: -150px;
+        top: 387px;
+        border-radius: 4px;
+        font-size: 9px;
+        color: white;
+        background: linear-gradient(140.12deg, rgb(212, 20, 90) -21.048%, rgb(61, 91, 245) 103.704%);
+
+    }
+}
